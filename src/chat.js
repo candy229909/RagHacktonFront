@@ -1,12 +1,10 @@
 import { ReactChatbot } from "@vectara/react-chatbot";
 
 export default function Chat() {
-
-  
-    return (
-      <div className="App">
-        <h1>Material Support</h1>
-        <h2>Choose and design your own needle</h2>
+  return (
+    <div className="App">
+      <h1>Material Support</h1>
+      <h2>Choose and design your own needle</h2>
 
       <ReactChatbot
         customerId="1866367850"
@@ -16,8 +14,7 @@ export default function Chat() {
         placeholder='Try "What is Vectara?" or "How does RAG work?"'
         inputSize="large"
         enableStreaming={true}
-        
       />
-      </div>    
-    );
-  }
+    </div>
+  );
+}
