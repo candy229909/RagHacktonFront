@@ -10,8 +10,8 @@ export default function Chat() {
         customerId="1866367850"
         corpusId="5"
         apiKey="zwt_bz6DahCpCW3mNHwmXpYDU2pwhfaHgYFB_tlPLg"
-        title="Vectara Docs Chatbot"
-        placeholder='Try "What is Vectara?" or "How does RAG work?"'
+        title="Material Support"
+        placeholder="Ask me something"
         inputSize="large"
         enableStreaming={true}
       />
