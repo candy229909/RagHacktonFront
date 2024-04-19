@@ -1,14 +1,6 @@
 import "./styles.css";
-import { ReactSearch } from "@vectara/react-search";
-import { useSearch } from "@vectara/react-search/lib/useSearch";
 
 export default function Data() {
-  const { fetchSearchResults, isLoading } = useSearch(
-    "CUSTOMER_ID",
-    "CORPUS_ID",
-    "API_KEY",
-  );
-
   return (
     <div className="App">
       <h1>Data</h1>
